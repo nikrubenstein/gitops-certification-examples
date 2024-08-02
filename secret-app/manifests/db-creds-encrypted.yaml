@@ -1,1 +1,18 @@
-
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: mysql-credentials
+  namespace: default
+spec:
+  encryptedData:
+    connection: AgA8iog8e4domsUEEeOV04Urx2Y97VmIqUNu6AQmAyHRJ2yYjoCLqgzHnaxOyd9tJimM4RxTH4IP2EyuyzBqp17yeexkEK6SKA/gBPocwcouP34LobjY0agtkWNIaNeq>
+    password: AgCfV/QzhZmvp9bBJ1HXXnK5+dMFaGScRxrl4u7UH47PYo3OhmHTstBIxE1Ul86uIAfFazR81Dq3nOjzf6IX4lYj+qFbLRAxTMI2xrxenjTQ2lSU2zuOYM2QcAEoxU8WqB>
+    username: AgBnjTWihtsh5gIOv0nU+iH7Y7lgx1MPgOK8RcYMxrLM9uH8wMxt0NqM8r0kl2KQBMjQ5M9poHJEwd+skPjWq9PWUuFQnThugy2M3maeuv5MzQ7WoFo7ClobfrpM9LfGPE>
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: mysql-credentials
+      namespace: default
+    type: Opaque
